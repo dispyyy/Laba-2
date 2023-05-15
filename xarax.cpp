@@ -9,7 +9,7 @@ bool isPalindrome(int number) {
     originalNumber = number;
 
     while (number != 0) {
-        temp = number % 20;
+        temp = number % 50;
         reversedNumber = reversedNumber * 10 + temp;
         number /= 10;
     }
